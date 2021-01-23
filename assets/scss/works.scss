@@ -1,0 +1,88 @@
+@import 'variables';
+
+.works {
+  padding-bottom: $paddingSection;
+}
+
+.works__header {
+  width: 575px;
+}
+
+.works__suptitle {
+  color: $lightGrey;
+
+  h6 {
+    @include overline();
+  }
+}
+
+.works__title {
+  padding-top: 8px;
+  color: $text;
+
+  h2 {
+    @include heading2();
+  }
+}
+
+.works__inner {
+  display: flex;
+}
+
+.works__column--1 {
+  margin-top: 80px;
+}
+
+.works__column--2 {
+  margin-top: -160px;
+}
+
+.works__item {
+  background-color: $level1;
+  width: 636px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.works__item__text {
+  padding: 40px 32px;
+}
+
+.works__item__title {
+  color: $text;
+
+  h3 {
+    @include heading3();
+  }
+}
+
+.works__item__suptitle {
+  color: $lightGrey;
+  padding-top: 13px;
+
+  p {
+    @include body1();
+  }
+}
+
+.button__view {
+  padding-top: 112px;
+}
+
+.button__view__inner {
+  text-align: center;
+
+  a {
+    border: 1px solid $primary;
+    padding: 24px 32px;
+    color: $text;
+    @include button();
+
+    transition: .3s ease-out;
+
+    &:hover {
+      background-color: $primary;
+      color: $base;
+    }
+  }
+}

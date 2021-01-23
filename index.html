@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
+  <title>Robin W. Portfolio</title>
+  <script src="https://kit.fontawesome.com/478cb4eaa9.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="assets/js/scrollNav.js"></script>
+</head>
+
+<body>
+
+  <!-- Прелоадер -->
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="#" data-scroll="#intro"><img src="img/header__logo.png" alt="header logo"></a>
+        </div>
+        <nav class="navigation">
+          <a href="#" class="nav__link" data-scroll="#experience">Experience</a>
+          <a href="#" class="nav__link" data-scroll="#works">Work</a>
+          <a href="#" class="nav__link" data-scroll="#photography">Photography</a>
+          <a href="#" class="nav__link" data-scroll="#contacts">Contact</a>
+        </nav>
+        <div class="burger-menu">
+          <a href="#" class="burger-menu__button">
+            <span class="burger-menu__lines">
+              <div class="burger-menu__nav">
+                <a href="portfolio.html" class="burger__link">Experience</a>
+                <a href="ux-analysis.html" class="burger__link">Work</a>
+                <a href="projection.html" class="burger__link">Photography</a>
+                <a href="ui-design.html" class="burger__link">Contact</a>
+              </div>
+          </a>
+        </div>
+
+        <div class="burger-menu__overlay"></div>
+      </div> <!-- /.header__inner -->
+
+    </div> <!-- /.container -->
+  </header>
+
+  <main>
+    <!-- Intro -->
+    <section class="intro" id="intro">
+      <div class="intro__inner">
+        <div class="intro__photo wow fadeInRight">
+          <img src="img/intro/intro__photo.jpg" alt="intro photo">
+        </div>
+        <div class="intro__text wow fadeInLeft">
+          <div class="intro__title">
+            <h1>I’m Robin Williams. A Product Designer <span class="grayWord">based in Italy.</span></h1>
+          </div>
+          <div class="intro__suptitle">
+            <p>I’m probably the most passionate designer you will ever get to work with. If you have a great project
+              that needs some amazing skills, I’m your guy.</p>
+          </div>
+        </div>
+      </div> <!-- /.intro__inner -->
+    </section> <!-- /.intro -->
+
+    <!-- Experience section -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="experience__header wow fadeInLeft">
+          <div class="experience__suptitle">
+            <h6>work experience</h6>
+          </div>
+          <div class="experience__title">
+            <h2>Companies I have worked
+              for in the past</h2>
+          </div>
+        </div>
+
+        <div class="companies">
+          <div class="companies__inner wow fadeInRight">
+            <div class="companies__item">
+              <div class="companies__num">01</div>
+              <div class="companies__name">
+                <h3><span class="greenWord">Google</span>, Interaction Designer</h3>
+              </div>
+              <div class="companies__description">
+                <h5>I currently am the lead designer on the interaction design team for Google Play.</h5>
+              </div>
+            </div>
+
+            <div class="companies__item">
+              <div class="companies__num">02</div>
+              <div class="companies__name">
+                <h3><span class="blueWord">Facebook</span>, Product Designer</h3>
+              </div>
+              <div class="companies__description">
+                <h5>I’ve worked on a wide variety of internal tools for facebook over the past 6 years.</h5>
+              </div>
+            </div>
+
+            <div class="companies__item">
+              <div class="companies__num">03</div>
+              <div class="companies__name">
+                <h3><span class="pinkWord">Dribbble</span>, Graphic Designer</h3>
+              </div>
+              <div class="companies__description">
+                <h5>I started my design career with Dribbble. I was incharge of creating illustrations for the platform.
+                </h5>
+              </div>
+            </div>
+          </div> <!-- /.companies__inner -->
+        </div> <!-- /.companies -->
+      </div> <!-- /.container -->
+    </section> <!-- /.experience -->
+
+    <!-- Philosophy Section -->
+    <section class="philosophy">
+      <div class="philosophy__inner">
+        <div class="philosophy__text wow fadeInLeft">
+          <div class="philosophy__title">
+            <h2>Philosophy & values</h2>
+          </div>
+          <div class="philosophy__description">
+            <p>I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and
+              experience with the universe. I try to grasp these things with my values: authenticity, creativity, &
+              hospitality.</p>
+          </div>
+          <div class="philosophy__button">
+            <a href="#" target="_blank">More about me</a>
+          </div>
+        </div>
+        <div class="philosophy__photo wow fadeInRight">
+          <img src="img/philosophy/philosophy__photo.jpg" alt="philosophy__photo">
+        </div>
+      </div> <!-- /.philosophy__inner -->
+    </section> <!-- /.philosophy -->
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <div class="container">
+        <div class="skills__inner">
+          <div class="skills__header wow fadeInDown">
+            <div class="skills__title">
+              <h2>Skillset</h2>
+            </div>
+            <div class="skills__description">
+              <p>With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a
+                full fledged project. Whatever your needs are, I can pretty much take on any challenge.</p>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <div class="skillset__inner wow fadeInRight">
+              <div class="skillset__item">
+                <div class="skillset__item__icon">
+                  <img src="img/skills/icon__product.svg" alt="icon__product">
+                </div>
+                <div class="skillset__item__title">
+                  <h3>Product Design</h3>
+                </div>
+                <div class="skillset__item__text">
+                  <p>Working at Facebook has taught me a lot about how to understand users, solve problems and build
+                    great products.</p>
+                </div>
+              </div>
+
+              <div class="skillset__item">
+                <div class="skillset__item__icon">
+                  <img src="img/skills/icon__visual.svg" alt="icon__product">
+                </div>
+                <div class="skillset__item__title">
+                  <h3>Visual Design</h3>
+                </div>
+                <div class="skillset__item__text">
+                  <p>My experience at dribbble has helped me learn to develop the eye for design. Colors, typography,
+                    layout and the whole package.</p>
+                </div>
+              </div>
+
+              <div class="skillset__item">
+                <div class="skillset__item__icon">
+                  <img src="img/skills/icon__motion.svg" alt="icon__product">
+                </div>
+                <div class="skillset__item__title">
+                  <h3>Motion Design</h3>
+                </div>
+                <div class="skillset__item__text">
+                  <p>I started my design journey with motion design in my college days. Motion is something that really
+                    fascinates me because of the flexibility of story telling. </p>
+                </div>
+              </div>
+
+              <div class="skillset__item">
+                <div class="skillset__item__icon">
+                  <img src="img/skills/icon__photography.svg" alt="icon__product">
+                </div>
+                <div class="skillset__item__title">
+                  <h3>Photography</h3>
+                </div>
+                <div class="skillset__item__text">
+                  <p>Clicking pictures really brings out the creative in me. Phtography really makes you look and
+                    percieve things in a different way.</p>
+                </div>
+              </div>
+
+            </div> <!-- /.skillset__inner -->
+          </div>
+        </div> <!-- /.skills__inner -->
+      </div> <!-- /.container -->
+
+      <!-- Slider -->
+      <div class="skills__slider">
+        <div class="slider__wrapper">
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo1.svg" alt="1"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo2.svg" alt="2"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo3.svg" alt="3"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo4.svg" alt="4"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo1.svg" alt="1"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo3.svg" alt="2"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo1.svg" alt="3"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo1.svg" alt="4"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo3.svg" alt="1"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo4.svg" alt="2"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo2.svg" alt="3"></a>
+          </div>
+
+          <div class="slider__item">
+            <a href="#" target="_blank"><img src="img/slider/logo4.svg" alt="4"></a>
+          </div>
+        </div>
+      </div> <!-- /.skills__slider -->
+    </section> <!-- /.skills -->
+
+    <section class="works" id="works">
+      <div class="container">
+        <div class="works__header wow fadeInDown">
+          <div class="works__suptitle">
+            <h6>MY PROJECTS</h6>
+          </div>
+          <div class="works__title">
+            <h2>Work that I’ve done for the past 8 years</h2>
+          </div>
+        </div>
+
+        <div class="works__inner">
+          <div class="works__column--1">
+            <div class="works__item wow fadeInLeft">
+              <div class="works__item__photo">
+                <img src="/img/works/1.jpg" alt="1">
+              </div>
+              <div class="works__item__text">
+                <div class="works__item__title">
+                  <h3>Restaurant Website Design</h3>
+                </div>
+                <div class="works__item__suptitle">
+                  <p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and
+                    iOS. This project lasted for 4 months and was a very challenging one.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="works__item wow fadeInLeft">
+              <div class="works__item__photo">
+                <img src="/img/works/2.jpg" alt="2">
+              </div>
+              <div class="works__item__text">
+                <div class="works__item__title">
+                  <h3>Restaurant Website Design</h3>
+                </div>
+                <div class="works__item__suptitle">
+                  <p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and
+                    iOS. This project lasted for 4 months and was a very challenging one.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div> <!-- /.works__column--1 -->
+
+          <div class="works__column--2">
+            <div class="works__item wow fadeInRight">
+              <div class="works__item__photo">
+                <img src="/img/works/3.jpg" alt="3">
+              </div>
+              <div class="works__item__text">
+                <div class="works__item__title">
+                  <h3>Restaurant Website Design</h3>
+                </div>
+                <div class="works__item__suptitle">
+                  <p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and
+                    iOS. This project lasted for 4 months and was a very challenging one.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="works__item fadeInRight">
+              <div class="works__item__photo">
+                <img src="/img/works/4.jpg" alt="4">
+              </div>
+              <div class="works__item__text">
+                <div class="works__item__title">
+                  <h3>Restaurant Website Design</h3>
+                </div>
+                <div class="works__item__suptitle">
+                  <p>I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and
+                    iOS. This project lasted for 4 months and was a very challenging one.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="button__view">
+              <div class="button__view__inner">
+                <a href="#">VIEW ALL PROJECTS</a>
+              </div>
+            </div>
+
+          </div> <!-- /.works__column--2 -->
+        </div> <!-- /.works__inner -->
+      </div> <!-- /.container -->
+    </section> <!-- /.works -->
+
+    <!-- Instagram Section -->
+    <section class="instagram">
+      <div class="instagram__inner">
+        <div class="instagram__text wow fadeInLeft">
+          <div class="instagram__title">
+            <h2>Instagram</h2>
+          </div>
+          <div class="instagram__description">
+            <p>If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m
+              an avid traveller and I capture the best moments that I would love to cherish with the world</p>
+          </div>
+          <div class="instagram__button">
+            <a href="#" target="_blank">Follow me on IG</a>
+          </div>
+        </div>
+        <div class="instagram__photo wow fadeInRight">
+          <img src="img/instagram/instagram.jpg" alt="philosophy__photo">
+        </div>
+      </div> <!-- /.instagram__inner -->
+    </section> <!-- /.philosophy -->
+
+    <!-- Dribble section -->
+    <section class="dribble">
+      <div class="container">
+        <div class="dribble__header wow fadeInDown">
+          <div class="dribble__title">
+            <h2>Dribbble</h2>
+          </div>
+          <div class="dribble__suptitle">
+            <p>Each dribbble shot is made with love and care. Do check out my work on Dribbble. Likes and comments are
+              appreciated.</p>
+          </div>
+        </div>
+
+        <div class="button__dribble">
+          <div class="button__dribble__inner"></div>
+          <a href="#">Follow me on Dribbble</a>
+        </div>
+
+        <div class="dribble__inner wow fadeInUp">
+          <div class="dribble__slider">
+            <div class="dribble__slider__wrapper">
+              <div class="dribble__slider__item">
+                <img src="img/dribble/dribble.jpg" alt="1">
+              </div>
+
+              <div class="dribble__slider__item">
+                <img src="img/dribble/dribble.jpg" alt="2">
+              </div>
+
+              <div class="dribble__slider__item">
+                <img src="img/dribble/dribble.jpg" alt="3">
+              </div>
+            </div> <!-- /.dribble__slider__wrapper -->
+          </div> <!-- /.dribble__slider -->
+        </div> <!-- /.dribble__inner -->
+      </div> <!-- /.container -->
+    </section> <!-- /.dribble -->
+
+    <!-- Reviews section -->
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__inner">
+          <div class="reviews__header wow fadeInDown">
+            <div class="reviews__title">
+              <h2>This is what people say about me</h2>
+            </div>
+            <div class="reviews__suptitle">
+              <p>Here are a few lines from people who I have worked with over the past 8+ years in my design career.</p>
+            </div>
+
+            <div class="testimonials__button">
+              <div class="testimonials__button__inner">
+                <a href="#">See all testimonials</a>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__column">
+            <div class="reviews__item wow fadeInRight">
+              <div class="reviews__item__photo">
+                <img src="img/reviews/1.jpg" alt="1">
+              </div>
+              <div class="reviews__text">
+                <div class="reviews__title">
+                  <h3>‘’Robin is one of the best designers I have worked with in my entire life. He is a designer who is
+                    very capable of taking up complex projects and delivers impeccable design.’’</h3>
+                </div>
+                <div class="reviews__prof">
+                  <span class="bold">Richard Owens</span>
+                  <span class="place">CEO, Company 1</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item wow fadeInLeft">
+              <div class="reviews__item__photo">
+                <img src="img/reviews/2.jpg" alt="2">
+              </div>
+              <div class="reviews__text">
+                <div class="reviews__title">
+                  <h3>‘’I think Robin has an incredible gift. It has been an absolute pleasure to work with a designer
+                    of this caliber.’’</h3>
+                </div>
+                <div class="reviews__prof">
+                  <span class="bold">Emily Parker</span>
+                  <span class="place">CEO, Company 2</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item wow fadeInRight">
+              <div class="reviews__item__photo">
+                <img src="img/reviews/3.jpg" alt="3">
+              </div>
+              <div class="reviews__text">
+                <div class="reviews__title">
+                  <h3>‘’All I can say that, Robin is a phenomenal designer. The wavelength at which he thinks is
+                    astoundaing. I love the focus, passion and attention to detial in the design.’’</h3>
+                </div>
+                <div class="reviews__prof">
+                  <span class="bold">Vincent Rudd</span>
+                  <span class="place">CEO, Company 1</span>
+                </div>
+              </div>
+            </div>
+          </div> <!-- /.reviews__column -->
+        </div> <!-- /.reviews__inner -->
+      </div> <!-- /.container -->
+    </section> <!-- /.reviews -->
+
+    <!-- Phorography Section -->
+    <section class="photography" id="photography">
+      <div class="container">
+        <div class="photography__header wow fadeInDown">
+          <div class="photography__title">
+            <h2>Photography</h2>
+          </div>
+          <div class="photography__suptitle">
+            <p>
+              Here is a collection of my best travel pictures that I took while travelling places all around the world.
+            </p>
+          </div>
+        </div>
+
+        <div class="photography__gallery wow fadeInDown">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Italy')" id="defaultOpen">ITALY</button>
+            <button class="tablinks" onclick="openCity(event, 'Australia')">AUSTRALIA</button>
+            <button class="tablinks" onclick="openCity(event, 'India')">INDIA</button>
+            <button class="tablinks" onclick="openCity(event, 'Brazilia')">BRAZIL</button>
+          </div>
+
+          <div id="Italy" class="tabcontent">
+            <img src="/img/photography/italy1.jpg" alt="1">
+            <img src="/img/photography/italy2.jpg" alt="2">
+            <img src="/img/photography/italy3.jpg" alt="3">
+            <img src="/img/photography/italy4.jpg" alt="4">
+          </div>
+
+          <div id="Australia" class="tabcontent">
+            <img src="/img/photography/italy1.jpg" alt="1">
+            <img src="/img/photography/italy2.jpg" alt="2">
+            <img src="/img/photography/italy3.jpg" alt="3">
+            <img src="/img/photography/italy4.jpg" alt="4">
+            <img src="/img/photography/italy1.jpg" alt="5">
+            <img src="/img/photography/italy2.jpg" alt="6">
+          </div>
+
+          <div id="India" class="tabcontent">
+            <img src="/img/photography/italy1.jpg" alt="1">
+            <img src="/img/photography/italy2.jpg" alt="2">
+          </div>
+
+          <div id="Brazilia" class="tabcontent">
+            <img src="/img/photography/italy1.jpg" alt="1">
+            <img src="/img/photography/italy2.jpg" alt="2">
+            <img src="/img/photography/italy1.jpg" alt="3">
+            <img src="/img/photography/italy4.jpg" alt="4">
+            <img src="/img/photography/italy2.jpg" alt="5">
+            <img src="/img/photography/italy1.jpg" alt="6">
+          </div>
+
+        </div> <!-- /.photography__gallery -->
+      </div> <!-- /.container -->
+    </section> <!-- /.photography -->
+
+    <!-- Contacts Section -->
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__header wow bounceInLeft">
+            <div class="contacts__title">
+              <h2>Let’s get started</h2>
+            </div>
+            <div class="contacts__suptitle">
+              <p>Now that you know a lot about me, let me know if you are interested to work with me.</p>
+            </div>
+          </div>
+
+          <form class="contact__form wow bounceInRight" action="" method="post" name="contact_form">
+            <ul>
+              <li>
+                <h2>Name</h2>
+              </li>
+              <li>
+                <input class="contact__input" type="text" name="name" placeholder="" />
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <h2>Email</h2>
+              </li>
+              <li>
+                <input class="contact__input" type="text" name="email" placeholder="" />
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h2>Message</h2>
+              </li>
+              <li>
+                <textarea class="contact__textarea" name="project" placeholder="" style="resize: none;"></textarea>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <div class="send__button">
+                  <div class="send__button__inner">
+                    <a href="#">Let’s get started</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </form>
+        </div> <!-- /.contacts__inner -->
+      </div> <!-- /.container -->
+    </section> <!-- /.contacts -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__column--1">
+
+          <div class="footer__logo">
+            <img src="/img/footer/footer__logo.png" alt="footer logo">
+          </div>
+
+          <div class="footer__social">
+            <div class="social__item">
+              <a href="#"><img src="/img/footer/twitter.svg" alt="twitter"></a>
+            </div>
+            <div class="social__item">
+              <a href="#"><img src="/img/footer/dribble.svg" alt="dribble"></a>
+            </div>
+            <div class="social__item">
+              <a href="#"><img src="/img/footer/linkedin.svg" alt="linkedin"></a>
+            </div>
+          </div><!-- /.footer__social -->
+
+        </div> <!-- /.footer__column--1 -->
+        <div class="footer__column--2">
+          <nav class="footer__navigation">
+            <div class="footer__nav__column--1">
+              <a href="#" class="footer__nav__link">Home</a>
+              <a href="#" class="footer__nav__link">About</a>
+              <a href="#" class="footer__nav__link">Work</a>
+              <a href="#" class="footer__nav__link">Process</a>
+            </div>
+            <div class="footer__nav__column--2">
+              <a href="#" class="footer__nav__link">Store</a>
+              <a href="#" class="footer__nav__link">Blog</a>
+              <a href="#" class="footer__nav__link">Reading List</a>
+            </div>
+          </nav> <!-- /.footer__navigation -->
+        </div> <!-- /.footer__inner__column--2 -->
+      </div> <!-- /.footer__inner -->
+      <div class="watermark">
+        <p>Not Copyright 2020 • Robin Williams. Webflow cloneable</p>
+      </div>
+    </div> <!-- /.container -->
+  </footer> <!-- /.footer -->
+
+  <!-- Button to Top -->
+
+  <a class="up_down_btn" title="Наверх"></a>
+
+  <!-- WOW JS -->
+
+  <script src="assets/js/vendors/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+<script src="assets/js/loader.js"></script>
+<script src="assets/js/mobileMenu.js"></script>
+<script src="assets/js/scrollToTop.js"></script>
+<script src="assets/js/vendors/slick.min.js"></script>
+<script src="assets/js/slider.js"></script>
+<script src="assets/js/galleryTab.js"></script>
+</html>

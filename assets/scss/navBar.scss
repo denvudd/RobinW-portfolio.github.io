@@ -1,0 +1,41 @@
+@import 'variables';
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* NAV */
+.navigation {
+  font-size: 20px;
+}
+
+.nav__link {
+  @include body2();
+  color: $text;
+  position: relative;
+
+  vertical-align: top;
+  margin: 0 24px;
+  transition: .2s linear;
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $primary;
+    padding: 32px 24px;
+    margin: 0 0;
+  }
+}

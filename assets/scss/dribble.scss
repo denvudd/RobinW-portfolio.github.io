@@ -1,0 +1,58 @@
+@import 'variables';
+
+.dribble {
+  padding-top: $paddingSection;
+  padding-bottom: $paddingSection;
+}
+
+.dribble__header {
+  width: 636px;
+}
+
+.dribble__title {
+  color: $text;
+  h2 {
+    @include heading2();
+  }
+}
+
+.dribble__suptitle {
+  color: $lightGrey;
+  padding-top: 24px;
+  p {
+    @include body1();
+  }
+}
+
+.button__dribble {
+  padding-top: 40px;
+  a {
+    @include body2();
+    color: $text;
+    display: inline-block;
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $lightGrey;
+      transition: width .3s;
+    }
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.dribble__slider {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.dribble__slider__item {
+  img {
+    border-radius: 12px;
+  }
+}

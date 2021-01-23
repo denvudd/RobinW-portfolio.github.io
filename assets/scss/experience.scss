@@ -1,0 +1,83 @@
+@import 'variables';
+
+.experience {
+  padding-top: $paddingSection;
+  padding-bottom: $paddingSection;
+}
+
+.experience__header {
+  width: 690px;
+}
+
+.experience__suptitle {
+  color: $lightGrey;
+  h6 {
+    @include overline();
+  }
+}
+
+.experience__title {
+  padding-top: 8px;
+  color: $text;
+  h2 {
+    @include heading2();
+  }
+}
+
+.companies {
+  padding-top: 40px;
+}
+
+.companies__inner {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  
+}
+
+.companies__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 416px;
+  margin-right: 22px;
+  align-items: stretch;
+  
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+
+.companies__num {
+  color: $lightGrey;
+  @include label1();
+}
+
+.companies__name {
+  color: $text;
+  padding-bottom: 22px;
+  h3 {
+    @include heading3();
+  }
+}
+
+.companies__description {
+  color: $lightGrey;
+  
+  h5 {
+    @include body2();
+  }
+}
+
+.greenWord {
+  color: $greenAccent;
+}
+
+.blueWord {
+  color: $primary;
+}
+
+.pinkWord {
+  color: $pinkAccent;
+}

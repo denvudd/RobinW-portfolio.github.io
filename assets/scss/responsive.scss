@@ -1,0 +1,1784 @@
+@import 'variables';
+
+/* ========= LAPTOPS ========= */
+/* ========= LAPTOPS ========= */
+/* ========= LAPTOPS ========= */
+/* ========= LAPTOPS ========= */
+/* ========= LAPTOPS ========= */
+
+@media #{$laptop} {
+  /* Sections */
+
+  /* Header */
+  .header {
+    width: 90%;
+  }
+
+  /* Intro */
+
+  .intro__text {
+    right: 60px;
+    padding-right: 20px;
+    padding-top: 80px;
+    width: 570px;
+  }
+
+  .intro__title {
+    h1 {
+      @include heading2();
+    }
+  }
+
+  .intro__suptitle {
+    padding-top: 32px;
+
+    p {
+      @include body2();
+    }
+  }
+
+  /* Experience Section */
+
+  .experience {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .companies__item {
+    width: 240px;
+  }
+
+  /* Philosophy Section */
+
+  .philosophy__text {
+    padding: 80px 40px 80px 40px;
+  }
+
+  /* Skills Section */
+
+  .skills {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .skills__inner {
+    flex-direction: column;
+  }
+
+  .skills__header {
+    margin-right: 0;
+    width: 690px;
+  }
+
+  .skillset {
+    padding-top: 72px;
+  }
+
+  .skills__slider {
+    padding-top: 90px;
+  }
+
+  /* Works Section */
+
+
+  .works__header {
+    width: 780px;
+  }
+
+  .works__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .works__column--2 {
+    margin-top: 0;
+  }
+
+  /* Instagram Section */
+
+  .instagram__text {
+    padding: 80px 40px 80px 40px;
+  }
+
+  /* Dribble Section */
+
+  .dribble {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .dribble__slider__item {
+    img {
+      width: 688px;
+      height: 480px;
+    }
+  }
+
+  /* Reviews Section */
+
+  .reviews__header {
+    width: 390px;
+  }
+
+  .reviews__item {
+    width: 470px;
+  }
+
+  .reviews__item__photo {
+    img {
+      width: 470px;
+      height: 310px;
+    }
+  }
+
+  /* Phorography Section */
+
+  .photography {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .contacts__header {
+    width: 405px;
+  }
+
+  .contacts__inner {
+    justify-content: flex-start;
+  }
+
+  /* Footer */
+
+  .footer__inner {
+    justify-content: space-around;
+  }
+
+  .watermark {
+    padding-top: 90px;
+  }
+}
+
+/* ========= LARGE DEVICES ========= */
+/* ========= LARGE DEVICES ========= */
+/* ========= LARGE DEVICES ========= */
+/* ========= LARGE DEVICES ========= */
+/* ========= LARGE DEVICES ========= */
+
+@media #{$lg} {
+  /* Sections */
+
+  /* Header */
+  .header {
+    width: 90%;
+  }
+
+  /* Intro */
+
+  .intro__text {
+    right: 60px;
+    padding-right: 20px;
+    padding-top: 80px;
+    width: 570px;
+  }
+
+  .intro__title {
+    h1 {
+      @include heading2();
+    }
+  }
+
+  .intro__suptitle {
+    padding-top: 32px;
+
+    p {
+      @include body2();
+    }
+  }
+
+  /* Experience Section */
+
+  .experience {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .companies__item {
+    width: 240px;
+  }
+
+  /* Philosophy Section */
+
+  .philosophy__text {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .philosophy__button {
+    padding-top: 70px;
+  }
+
+  /* Skills Section */
+
+  .skills {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .skills__inner {
+    flex-direction: column;
+  }
+
+  .skills__header {
+    margin-right: 0;
+    width: 690px;
+  }
+
+  .skillset {
+    padding-top: 72px;
+  }
+
+  .skills__slider {
+    padding-top: 90px;
+  }
+
+  /* Works Section */
+
+
+  .works__header {
+    width: 780px;
+  }
+
+  .works__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .works__column--2 {
+    margin-top: 0;
+  }
+
+  /* Instagram Section */
+
+  .instagram__text {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .instagram__button {
+    padding-top: 70px;
+  }
+
+  /* Dribble Section */
+
+  .dribble {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .dribble__slider__item {
+    img {
+      width: 688px;
+      height: 480px;
+    }
+  }
+
+  /* Reviews Section */
+
+  .reviews__header {
+    width: 390px;
+  }
+
+  .reviews__item {
+    width: 400px;
+  }
+
+  .reviews__item__photo {
+    img {
+      width: 400px;
+      height: 290px;
+    }
+  }
+
+  /* Phorography Section */
+
+  .photography {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .contacts__header {
+    width: 405px;
+  }
+
+  .contacts__inner {
+    justify-content: flex-start;
+  }
+
+  .contact__input {
+    width: 332px;
+    height: 10px;
+  }
+
+  .contact__textarea {
+    width: 332px;
+    height: 10px;
+  }
+
+  /* Footer */
+
+  .footer__inner {
+    justify-content: space-around;
+  }
+
+  .watermark {
+    padding-top: 90px;
+  }
+}
+
+/* ========= MID DEVICES ========= */
+/* ========= MID DEVICES ========= */
+/* ========= MID DEVICES ========= */
+/* ========= MID DEVICES ========= */
+/* ========= MID DEVICES ========= */
+
+@media #{$md} {
+  /* Sections */
+
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* Header */
+  .header {
+    width: 90%;
+  }
+
+  /* Intro */
+
+  .intro {
+    background: $base;
+  }
+
+  .intro__photo {
+    img {
+      height: 100vh;
+      width: 50vw;
+    }
+  }
+
+  .intro__text {
+    right: 35px;
+    padding-right: 0px;
+    padding-top: 70px;
+    width: 400px;
+  }
+
+  .intro__title {
+    h1 {
+      @include heading2();
+    }
+  }
+
+  .intro__suptitle {
+    padding-top: 32px;
+
+    p {
+      @include body2();
+    }
+  }
+
+  /* Experience Section */
+
+  .experience {
+    padding-top: 164px;
+    padding-bottom: 90px;
+  }
+
+  .companies__item {
+    width: 190px;
+    margin-right: 45px;
+  }
+
+  /* Philosophy Section */
+
+  .philosophy__text {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .philosophy__button {
+    padding-top: 70px;
+  }
+
+  /* Skills Section */
+
+  .skills {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .skills__inner {
+    flex-direction: column;
+  }
+
+  .skills__header {
+    margin-right: 0;
+    width: 690px;
+  }
+
+  .skillset {
+    padding-top: 72px;
+  }
+
+  .skillset__inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skills__slider {
+    padding-top: 90px;
+  }
+
+  /* Works Section */
+
+
+  .works__header {
+    width: 690px;
+  }
+
+  .works__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .works__column--2 {
+    margin-top: 0;
+  }
+
+  .works__item {
+    width: 688px;
+
+    img {
+      width: 688px;
+    }
+  }
+
+  /* Instagram Section */
+
+  .instagram__text {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .instagram__button {
+    padding-top: 70px;
+  }
+
+  /* Dribble Section */
+
+  .dribble {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .dribble__slider {
+    padding-top: 40px;
+  }
+
+  .dribble__slider__wrapper {
+    width: 688px;
+  }
+
+  .dribble__slider__item {
+    img {
+      width: 551px;
+      height: 384px;
+    }
+  }
+
+  /* Reviews Section */
+
+  .reviews {
+    padding-top: 0;
+  }
+
+  .reviews__header {
+    width: 346px;
+    padding-right: 24px;
+  }
+
+  .reviews__item {
+    width: 332px;
+    margin-bottom: 60px;
+  }
+
+  .reviews__item__photo {
+    img {
+      width: 332px;
+      height: 295px;
+    }
+  }
+
+  .reviews__text {
+    padding: 32px 32px;
+  }
+
+  .testimonials__button__inner {
+    padding-top: 40px;
+  }
+
+  /* Phorography Section */
+
+  .photography {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding-top: 0;
+    padding-bottom: 90px;
+  }
+
+  .contacts__header {
+    width: 332px;
+  }
+
+  .contacts__inner {
+    justify-content: flex-start;
+  }
+
+  .contact__input {
+    width: 250px;
+    height: 10px;
+  }
+
+  .contact__textarea {
+    width: 250px;
+    height: 10px;
+  }
+
+  /* Footer */
+
+  .footer__inner {
+    justify-content: space-around;
+  }
+
+  .watermark {
+    padding-top: 90px;
+  }
+}
+
+/* ========= SMALL DEVICES ========= */
+/* ========= SMALL DEVICES ========= */
+/* ========= SMALL DEVICES ========= */
+/* ========= SMALL DEVICES ========= */
+/* ========= SMALL DEVICES ========= */
+
+@media #{$sm} {
+  /* Sections */
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Header */
+  .header {
+    width: 90%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /* Mobile Menu */
+
+  .burger-menu {
+    display: block;
+  }
+
+  /* Intro */
+
+  .intro {
+    background: $base;
+    height: 1000px;
+    padding-top: 70px;
+  }
+
+  .intro__inner {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro__photo {
+    position: static;
+
+    img {
+      height: 100vh;
+      width: 100vw;
+    }
+  }
+
+  .intro__text {
+
+    padding: 48px 20px 16px 20px;
+    width: auto;
+    position: static;
+  }
+
+  .intro__title {
+    h1 {
+      @include heading2();
+    }
+  }
+
+  .intro__suptitle {
+    padding-top: 32px;
+
+    p {
+      @include body2();
+    }
+  }
+
+  /* Experience Section */
+
+  .experience {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .experience__header {
+    width: 500px;
+  }
+
+  .companies__inner {
+    flex-direction: column;
+  }
+
+  .companies__item {
+    width: 320px;
+    margin-bottom: 48px;
+
+  }
+
+  .companies__description {
+    width: 80vw;
+  }
+
+  /* Philosophy Section */
+
+  .philosophy__inner {
+    flex-direction: column;
+  }
+
+  .philosophy__text {
+    padding: 48px 20px 48px 20px;
+    width: 95%;
+  }
+
+  .philosophy__photo {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .philosophy__button {
+    padding-top: 90px;
+  }
+
+  /* Skills Section */
+
+  .skills {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .skills__inner {
+    flex-direction: column;
+  }
+
+  .skills__header {
+    margin-right: 0;
+    width: 500px;
+  }
+
+  .skillset {
+    padding-top: 72px;
+  }
+
+  .skillset__inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skills__slider {
+    padding-top: 78px;
+  }
+
+  /* Works Section */
+
+
+  .works__header {
+    width: 500px;
+  }
+
+  .works__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .works__column--2 {
+    margin-top: 0;
+  }
+
+  .works__item {
+    width: 525px;
+    margin-bottom: 48px;
+
+    img {
+      width: 525px;
+    }
+  }
+
+  .button__view {
+    padding-top: 78px;
+  }
+
+  /* Instagram Section */
+
+  .instagram__inner {
+    flex-direction: column;
+  }
+
+  .instagram__text {
+    padding: 48px 20px 48px 20px;
+    width: 95%;
+  }
+
+  .instagram__photo {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .instagram__button {
+    padding-top: 90px;
+  }
+
+
+  /* Dribble Section */
+
+  .dribble {
+    padding-top: 78px;
+    padding-bottom: 120px;
+  }
+
+  .dribble__header {
+    width: 500px;
+  }
+
+  .dribble__slider {
+    padding-top: 40px;
+  }
+
+  .dribble__slider__wrapper {
+    width: 500px;
+  }
+
+  .dribble__slider__item {
+    img {
+      width: 320px;
+      height: 480px;
+    }
+  }
+
+  /* Reviews Section */
+
+  .reviews {
+    padding-top: 0;
+  }
+
+  .reviews__inner {
+    flex-direction: column;
+  }
+
+  .reviews__header {
+    width: 530px;
+    padding-right: 0;
+  }
+
+  .reviews__column {
+    padding-top: 64px;
+  }
+
+  .reviews__item {
+    width: 525px;
+    margin-bottom: 60px;
+  }
+
+  .reviews__item__photo {
+    img {
+      width: 525px;
+      height: 360px;
+    }
+  }
+
+  .reviews__text {
+    padding: 32px 32px;
+  }
+
+  .testimonials__button__inner {
+    padding-top: 40px;
+  }
+
+  /* Phorography Section */
+
+  .photography {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .tabcontent {
+    text-align: center;
+
+    img {
+      width: 440px;
+      height: 500px;
+    }
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding-top: 0;
+    padding-bottom: 90px;
+  }
+
+  .contacts__header {
+    width: 500px;
+  }
+
+  .contacts__inner {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .contact__form {
+    padding-top: 40px;
+  }
+
+  .contact__input {
+    width: 450px;
+    height: 10px;
+  }
+
+  .contact__textarea {
+    width: 450px;
+    height: 10px;
+  }
+
+  .send__button__inner {
+    display: inline-block;
+    text-align: start;
+
+    a {
+      padding: 24px 50px;
+    }
+  }
+
+  /* Footer */
+
+  .footer__inner {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer__social {
+    padding-top: 37px;
+  }
+
+  .footer__column--2 {
+    padding-top: 50px;
+  }
+
+  .footer__navigation {
+    flex-direction: column;
+  }
+
+  .watermark {
+    padding-top: 48px;
+  }
+}
+
+/* ========= EXTRA  SMALL DEVICES ========= */
+/* ========= EXTRA  SMALL DEVICES ========= */
+/* ========= EXTRA  SMALL DEVICES ========= */
+/* ========= EXTRA  SMALL DEVICES ========= */
+/* ========= EXTRA  SMALL DEVICES ========= */
+
+@media #{$xs} {
+  /* Sections */
+
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Header */
+  .header {
+    width: 90%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /* Mobile Menu */
+
+  .burger-menu {
+    display: block;
+  }
+
+  .burger-menu__button {
+    right: -30px;
+  }
+
+  .burger-menu__nav {
+    width: 70vw;
+  }
+
+  /* Intro */
+
+  .intro {
+    background: $base;
+    height: 970px;
+    padding-top: 70px;
+  }
+
+  .intro__inner {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro__photo {
+    position: static;
+
+    img {
+      height: 90vh;
+      width: 95vw;
+    }
+  }
+
+  .intro__text {
+
+    padding: 48px 20px 16px 20px;
+    width: auto;
+    position: static;
+  }
+
+  .intro__title {
+    h1 {
+      @include heading3Mobile();
+    }
+  }
+
+  .intro__suptitle {
+    padding-top: 32px;
+
+    p {
+      @include body2();
+    }
+  }
+
+  /* Experience Section */
+
+  .experience {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .experience__header {
+    width: 250px;
+  }
+
+  .experience__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .companies__inner {
+    flex-direction: column;
+  }
+
+  .companies__item {
+    width: 250px;
+    margin-bottom: 48px;
+
+  }
+
+  .companies__description {
+    width: 80vw;
+  }
+
+  /* Philosophy Section */
+
+  .philosophy__inner {
+    flex-direction: column;
+  }
+
+  .philosophy__text {
+    padding: 48px 30px 48px 20px;
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .philosophy__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .philosophy__photo {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .philosophy__button {
+    padding-top: 90px;
+  }
+
+  /* Skills Section */
+
+  .skills {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .skills__inner {
+    flex-direction: column;
+  }
+
+  .skills__header {
+    margin-right: 0;
+    width: 250px;
+  }
+
+  .skills__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .skillset {
+    padding-top: 72px;
+  }
+
+  .skillset__inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skills__slider {
+    padding-top: 78px;
+  }
+
+  /* Works Section */
+
+
+  .works__header {
+    width: 250px;
+  }
+
+  .works__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .works__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .works__column--2 {
+    margin-top: 0;
+  }
+
+  .works__item {
+    width: 250px;
+    margin-bottom: 48px;
+
+    img {
+      width: 250px;
+    }
+  }
+
+  .button__view {
+    padding-top: 78px;
+  }
+
+  .button__view__inner {
+    text-align: start;
+  }
+
+  /* Instagram Section */
+
+  .instagram__inner {
+    flex-direction: column;
+  }
+
+  .instagram__text {
+    padding: 48px 30px 48px 20px;
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .instagram__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .instagram__photo {
+    width: 95vw;
+    height: 80vh;
+  }
+
+  .instagram__button {
+    padding-top: 90px;
+  }
+
+
+  /* Dribble Section */
+
+  .dribble {
+    padding-top: 78px;
+    padding-bottom: 120px;
+  }
+
+  .dribble__header {
+    width: 250px;
+  }
+
+  .dribble__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .dribble__slider {
+    padding-top: 40px;
+  }
+
+  .dribble__slider__wrapper {
+    width: 250px;
+  }
+
+  .dribble__slider__item {
+    img {
+      width: 250px;
+      height: 460px;
+    }
+  }
+
+  /* Reviews Section */
+
+  .reviews {
+    padding-top: 0;
+  }
+
+  .reviews__inner {
+    flex-direction: column;
+  }
+
+  .reviews__header {
+    width: 250px;
+    padding-right: 0;
+  }
+
+  .reviews__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .reviews__column {
+    padding-top: 64px;
+  }
+
+  .reviews__item {
+    width: 250px;
+    margin-bottom: 60px;
+  }
+
+  .reviews__item__photo {
+    img {
+      width: 250px;
+      height: 280px;
+    }
+  }
+
+  .reviews__text {
+    padding: 32px 32px;
+  }
+
+  .testimonials__button__inner {
+    padding-top: 40px;
+  }
+
+  /* Phorography Section */
+
+  .photography {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .photography__header {
+    width: 250px;
+  }
+
+  .photography__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .tab {
+    display: block;
+    text-align: start;
+  }
+
+  .tablinks {
+    width: 148px;
+    padding: 16px 0;
+    margin: 12px 40px;
+  }
+
+  .tabcontent {
+    text-align: center;
+    margin-right: 78px;
+
+    img {
+      width: 250px;
+      height: 330px;
+    }
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding-top: 0;
+    padding-bottom: 90px;
+  }
+
+  .contacts__header {
+    width: 250px;
+  }
+
+  .contacts__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .contacts__inner {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .contact__form {
+    padding-top: 40px;
+  }
+
+  .contact__input {
+    width: 200px;
+    height: 10px;
+  }
+
+  .contact__textarea {
+    width: 200px;
+    height: 10px;
+  }
+
+  .send__button__inner {
+    display: inline-block;
+    text-align: start;
+
+    a {
+      padding: 24px 35px;
+    }
+  }
+
+  /* Footer */
+
+  .footer__inner {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer__social {
+    padding-top: 37px;
+  }
+
+  .footer__column--2 {
+    padding-top: 50px;
+  }
+
+  .footer__navigation {
+    flex-direction: column;
+  }
+
+  .watermark {
+    padding-top: 48px;
+  }
+}
+
+/* ========= IPHONE 6 ========= */
+/* ========= IPHONE 6 ========= */
+/* ========= IPHONE 6 ========= */
+/* ========= IPHONE 6 ========= */
+/* ========= IPHONE 6 ========= */
+
+@media #{$iphone6} {
+  /* Sections */
+
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Header */
+  .header {
+    width: 90%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /* Mobile Menu */
+
+  .burger-menu {
+    display: block;
+  }
+
+  .burger-menu__button {
+    right: -30px;
+  }
+
+  .burger-menu__nav {
+    width: 70vw;
+  }
+
+  /* Intro */
+
+  .intro {
+    background: $base;
+    height: 970px;
+    padding-top: 70px;
+  }
+
+  .intro__inner {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro__photo {
+    position: static;
+
+    img {
+      height: 90vh;
+      width: 100vw;
+    }
+  }
+
+  .intro__text {
+
+    padding: 48px 20px 16px 20px;
+    width: auto;
+    position: static;
+  }
+
+  .intro__title {
+    h1 {
+      @include heading3Mobile();
+    }
+  }
+
+  .intro__suptitle {
+    padding-top: 32px;
+
+    p {
+      @include body2();
+    }
+  }
+
+  /* Experience Section */
+
+  .experience {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .experience__header {
+    width: 315px;
+  }
+
+  .experience__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .companies__inner {
+    flex-direction: column;
+  }
+
+  .companies__item {
+    width: 250px;
+    margin-bottom: 48px;
+
+  }
+
+  .companies__description {
+    width: 80vw;
+  }
+
+  /* Philosophy Section */
+
+  .philosophy__inner {
+    flex-direction: column;
+  }
+
+  .philosophy__text {
+    padding: 48px 30px 48px 20px;
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .philosophy__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .philosophy__photo {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .philosophy__button {
+    padding-top: 90px;
+  }
+
+  /* Skills Section */
+
+  .skills {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .skills__inner {
+    flex-direction: column;
+  }
+
+  .skills__header {
+    margin-right: 0;
+    width: 315px;
+  }
+
+  .skills__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .skillset {
+    padding-top: 72px;
+  }
+
+  .skillset__inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skills__slider {
+    padding-top: 78px;
+  }
+
+  /* Works Section */
+
+
+  .works__header {
+    width: 315px;
+  }
+
+  .works__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .works__inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .works__column--2 {
+    margin-top: 0;
+  }
+
+  .works__item {
+    width: 335px;
+    margin-bottom: 48px;
+
+    img {
+      width: 335px;
+    }
+  }
+
+  .button__view {
+    padding-top: 78px;
+  }
+
+  .button__view__inner {
+    text-align: center;
+  }
+
+  /* Instagram Section */
+
+  .instagram__inner {
+    flex-direction: column;
+  }
+
+  .instagram__text {
+    padding: 48px 30px 48px 20px;
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .instagram__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .instagram__photo {
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .instagram__button {
+    padding-top: 90px;
+  }
+
+
+  /* Dribble Section */
+
+  .dribble {
+    padding-top: 78px;
+    padding-bottom: 120px;
+  }
+
+  .dribble__header {
+    width: 315px;
+  }
+
+  .dribble__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .dribble__slider {
+    padding-top: 40px;
+  }
+
+  .dribble__slider__wrapper {
+    width: 315px;
+  }
+
+  .dribble__slider__item {
+    img {
+      width: 250px;
+      height: 460px;
+    }
+  }
+
+  /* Reviews Section */
+
+  .reviews {
+    padding-top: 0;
+  }
+
+  .reviews__inner {
+    flex-direction: column;
+  }
+
+  .reviews__header {
+    width: 315px;
+    padding-right: 0;
+  }
+
+  .reviews__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .reviews__column {
+    padding-top: 64px;
+  }
+
+  .reviews__item {
+    width: 335px;
+    margin-bottom: 60px;
+  }
+
+  .reviews__item__photo {
+    img {
+      width: 335px;
+      ;
+      height: 280px;
+    }
+  }
+
+  .reviews__text {
+    padding: 32px 32px;
+  }
+
+  .testimonials__button__inner {
+    padding-top: 40px;
+  }
+
+  /* Phorography Section */
+
+  .photography {
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .photography__header {
+    width: 315px;
+  }
+
+  .photography__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .tab {
+    display: block;
+    text-align: start;
+  }
+
+  .tablinks {
+    width: 148px;
+    padding: 16px 0;
+    margin: 12px 100px;
+  }
+
+  .tabcontent {
+    text-align: center;
+    margin: 0 auto;
+
+    img {
+      width: 315px;
+      height: 360px;
+    }
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding-top: 0;
+    padding-bottom: 90px;
+  }
+
+  .contacts__header {
+    width: 315px;
+  }
+
+  .contacts__title {
+    h2 {
+      @include heading3Mobile();
+    }
+  }
+
+  .contacts__inner {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .contact__form {
+    padding-top: 40px;
+  }
+
+  .contact__input {
+    width: 200px;
+    height: 10px;
+  }
+
+  .contact__textarea {
+    width: 200px;
+    height: 10px;
+  }
+
+  .send__button__inner {
+    display: inline-block;
+    text-align: start;
+
+    a {
+      padding: 24px 35px;
+    }
+  }
+
+  /* Footer */
+
+  .footer__inner {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer__social {
+    padding-top: 37px;
+  }
+
+  .footer__column--2 {
+    padding-top: 50px;
+  }
+
+  .footer__navigation {
+    flex-direction: column;
+  }
+
+  .watermark {
+    padding-top: 48px;
+  }
+}

@@ -1,0 +1,77 @@
+@import 'variables';
+
+.photography {
+  padding-top: $paddingSection;
+  padding-bottom: $paddingSection;
+}
+
+.photography__header {
+  width: 590px;
+}
+
+.photography__title {
+  color: $text;
+  h2 {
+    @include heading2();
+  }
+}
+
+.photography__suptitle {
+  color: $lightGrey;
+  padding-top: 24px;
+  p {
+    @include body1();
+  }
+}
+
+.photography__gallery {
+  padding-top: 75px;
+}
+
+.tab {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab button {
+  border: 1px solid $primary;
+  background-color: transparent;
+  color: $text;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  margin-right: 24px;
+  transition: 0.3s;
+  @include button();
+
+}
+
+.tab button:hover {
+  background-color: $primary;
+}
+
+.tab button.active {
+  background-color: $primary;
+}
+
+.tabcontent {
+  display: none;
+  padding-top: 40px;
+  -webkit-animation: fadeEffect 2s ease;
+  animation: fadeEffect 2s ease;
+
+  img {
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

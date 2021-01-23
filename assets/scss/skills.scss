@@ -1,0 +1,89 @@
+@import 'variables';
+
+.skills {
+  padding-top: $paddingSection;
+  padding-bottom: $paddingSection;
+}
+
+.skills__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills__header {
+  width: 630px;
+  margin-right: 72px;
+}
+
+.skills__title {
+  color: $text;
+
+  h2 {
+    @include heading2();
+  }
+}
+
+.skills__description {
+  color: $lightGrey;
+  padding-top: 24px;
+
+  p {
+    @include body1();
+  }
+}
+
+.skillset__inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skillset__item {
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+  margin-right: 72px;
+  margin-bottom: 48px;
+}
+
+.skillset__item__icon {
+  padding-bottom: 24px;
+}
+
+.skillset__item__title {
+  color: $text;
+  @include heading3();
+}
+
+.skillset__item__text {
+  color: $lightGrey;
+  padding-top: 12px;
+  @include body2();
+}
+
+/* Slick Slider */
+
+.skills__slider {
+  padding-top: $paddingSection;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider__item {
+  width: 25%;
+  text-align: center;
+  border: 1px solid #181823;
+  box-sizing: border-box;
+
+  img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

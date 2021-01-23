@@ -1,0 +1,98 @@
+@import 'variables';
+
+.reviews {
+  padding-top: $paddingSection;
+}
+
+.reviews__inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.reviews__header {
+  width: 588px;
+  padding-right: 72px;
+}
+
+.reviews__title {
+  color: $text;
+
+  h2 {
+    @include heading2();
+  }
+}
+
+.reviews__suptitle {
+  color: $lightGrey;
+  padding-top: 24px;
+
+  p {
+    @include body1();
+  }
+}
+
+.testimonials__button__inner {
+  padding-top: 134px;
+
+  a {
+    @include body2();
+    color: $text;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $lightGrey;
+      transition: width .3s;
+    }
+
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.reviews__column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.reviews__item {
+  display: flex;
+  flex-direction: column;
+  width: 636px;
+  border: 1px solid #5B6876;
+  margin-bottom: 120px;
+}
+
+.reviews__text {
+  padding: 64px 64px;
+}
+
+.reviews__title {
+  color: $text;
+
+  h3 {
+    @include heading3();
+  }
+}
+
+.reviews__prof {
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  @include body1();
+
+  span {
+    padding-top: 4px;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}

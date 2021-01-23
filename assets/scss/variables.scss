@@ -1,0 +1,95 @@
+/*======== Colors ========*/
+$base: #000000;
+$level1: #181823;
+$lightGrey: #8491A0;
+$darkGrey: #5B6876;
+$text: #FFFFFF;
+$primary: #5221E6;
+$greenAccent: #3CC74E;
+$pinkAccent: #E95D90;
+$peachAccent: #FFF3E4;
+$violetAccent: #FBE4FF;
+
+/*======== Typography ========*/
+@mixin label1 {
+  font-size: 117px;
+  font-weight: 400;
+  line-height: 140px;
+}
+
+@mixin heading1 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 93px;
+}
+
+@mixin heading2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+}
+
+@mixin heading3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+@mixin heading3Mobile {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+@mixin heading4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+@mixin heading5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@mixin body1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+@mixin body2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@mixin overline {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+@mixin button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+
+
+/*======== Spaces ========*/
+
+$paddingSection: 120px;
+
+/* Responsive */
+
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg :'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$iphone6: 'only screen and (min-width: 326px) and (max-width: 575px)';
+$xs:'(max-width: 325px)';

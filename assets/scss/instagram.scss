@@ -1,0 +1,60 @@
+@import 'variables';
+
+.instagram {
+  background: $violetAccent;
+}
+
+.instagram__inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.instagram__text {
+  padding: 120px 200px 120px 200px;
+  width: 50%;
+}
+
+.instagram__title {
+  color: $level1;
+  h2 {
+    @include heading2();
+  }
+}
+
+.instagram__description {
+  color: $darkGrey;
+  padding-top: 24px;
+  p {
+    @include body1();
+  }
+}
+
+.instagram__button {
+  padding-top: 134px;
+  a {
+    @include body2();
+    color: $level1;
+    display: inline-block;
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: $lightGrey;
+      transition: width .3s;
+    }
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.instagram__photo {
+  width: 50%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

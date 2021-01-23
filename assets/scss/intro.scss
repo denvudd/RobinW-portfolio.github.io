@@ -1,0 +1,48 @@
+@import 'variables';
+
+.intro {
+  padding-top: $paddingSection;
+  height: 90vh;
+
+  background: url('/img/intro/intro__bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.intro__inner {
+  position: relative;
+}
+
+.intro__photo {
+  position: absolute;
+  img {
+    height: 80vh;
+    width: 50vw;
+  }
+}
+
+.intro__text {
+  width: 738px;
+  color: $text;
+
+  position: absolute;
+  right: 280px;
+  padding-right: 40px;
+  padding-top: 141px;
+}
+
+.intro__title {
+  h1 {
+    @include heading1();
+  }
+}
+
+.intro__suptitle {
+  padding-top: 32px;
+  p {
+    @include body1();
+  }
+}
+
+.grayWord {
+  opacity: 0.5;
+}
